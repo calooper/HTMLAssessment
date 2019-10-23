@@ -7,6 +7,7 @@ td {
   border-style: solid;
   border-width: thin;
   font-display: block;
+  text-align: center;
 }
 
 th {
@@ -39,14 +40,23 @@ blockquote {
 #teamRoster>li:first-child {
   background-image: url(https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg);
   background-repeat: no-repeat;
+  background-size: 200px;
+}
+
+ul>li>img {
+  width: 0;
 }
 
 #teamRoster>li:last-child {
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg);
+  background-size: 200px;
   background-repeat: no-repeat;
 }
 
-#checkbox-grid {
+#checkbox-grid>li {
   list-style-type: none;
-  
+}
+
+#teamRoster>li:nth-child(Jay) {
+  font-weight: bold;
 }
